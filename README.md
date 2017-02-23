@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Topcoder Platform Pages
+Welcome to Topcoder Platform pages. Here you'll find our style guides, deployment documention to build and maintain our apps.
 
-You can use the [editor on GitHub](https://github.com/topcoder-platform/topcoder-platform.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### Style Guides
+* **Front End** - TBD
+* **Services** - TBD
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Deployment Guides
+Howtos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/topcoder-platform/topcoder-platform.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Repositories
+**Services**
+* [tc-api](https://github.com/appirio-tech/tc-api): Node.js app supporting Topcoder V2 API 
+* [ap-challenge-microservice](https://github.com/appirio-tech/ap-challenge-microservice): Microservice handling CRUD operations for challenges
+* [ap-member-microservice](https://github.com/appirio-tech/ap-member-microservice): Microservice for CRUD operations for Topcoder community members
+* [tc-api-core](https://github.com/appirio-tech/tc1-api-core): Microservice managing identity, login, registration for all Topcoder Users
+* [ap-notification-service](https://github.com/appirio-tech/ap-notification-service): Service handling transactional emails being sent through SendGrid.
+* [ap-review-microservice](https://github.com/appirio-tech/ap-review-microservice): Microservice handling CRUD operations for challenge reviews
+* [ap-submission-microservice](https://github.com/appirio-tech/ap-submission-microservice): Microservice handling operations for challenge submissions
+* [ap-submission-processor](https://github.com/appirio-tech/ap-submission-processor): Service that handles processing of submissions once they are uploaded to S3.
+* [ap-file-microservice](https://github.com/appirio-tech/ap-file-microservice): Microservice handling operations for file access, upload etc.
+* [tc-project-service](https://github.com/topcoder-platform/tc-project-service): Microservice handling CRUD operations for Connect Projects
+* [tc-tags-service](https://github.com/appirio-tech/tc-tags-service): Microservice handling CRUD operations for tags
+* [tc-message-service](https://github.com/topcoder-platform/tc-message-service): Microservice exposing APIs to interact with Discourse
+* [tc-connect-notifications](https://github.com/topcoder-platform/tc-connect-notifications): Service orchestrating notifications to / from connect users, and system (CoderBot)
