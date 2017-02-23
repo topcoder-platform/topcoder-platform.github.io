@@ -6,12 +6,13 @@ Welcome to Topcoder Platform pages. Here you'll find our style guides, deploymen
 * **Services** - TBD
 
 #### Deployment Guides
-Howtos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
+HowTos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
 
-
+* [CircleCI + AWS Elastic Container Service](docs/circleci-aws-ecs.md)
+* [CircleCI + AWS Elastic Beanstalk]()
 #### Repositories
 **Services**
-* [tc-api](https://github.com/appirio-tech/tc-api): Node.js app supporting Topcoder V2 API 
+* [tc-api](https://github.com/appirio-tech/tc-api): Node.js app supporting Topcoder V2 API
 * [ap-challenge-microservice](https://github.com/appirio-tech/ap-challenge-microservice): Microservice handling CRUD operations for challenges
 * [ap-member-microservice](https://github.com/appirio-tech/ap-member-microservice): Microservice for CRUD operations for Topcoder community members
 * [tc-api-core](https://github.com/appirio-tech/tc1-api-core): Microservice managing identity, login, registration for all Topcoder Users
