@@ -8,7 +8,7 @@ Welcome to Topcoder Platform pages. Here you'll find our style guides, deploymen
 #### Deployment Guides
 HowTos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
 
-* [CircleCI + AWS Elastic Container Service](docs/circleci-aws-ecs.md)
+* [CircleCI + AWS Elastic Container Service](pages/deploys/circleci-aws-ecs.md)
 * CircleCI + AWS Elastic Beanstalk - Pending
 
 
