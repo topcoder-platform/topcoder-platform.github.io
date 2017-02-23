@@ -9,8 +9,15 @@ Welcome to Topcoder Platform pages. Here you'll find our style guides, deploymen
 HowTos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
 
 * [CircleCI + AWS Elastic Container Service](docs/circleci-aws-ecs.md)
-* [CircleCI + AWS Elastic Beanstalk]()
+* CircleCI + AWS Elastic Beanstalk - Pending
+
+
 #### Repositories
+**Web Apps**
+* [topcoder-app](https://github.com/appirio-tech/topcoder-app): Community facing webapp
+* [connect-app](https://github.com/appirio-tech/connect-app): Customer facing webapp
+
+
 **Services**
 * [tc-api](https://github.com/appirio-tech/tc-api): Node.js app supporting Topcoder V2 API
 * [ap-challenge-microservice](https://github.com/appirio-tech/ap-challenge-microservice): Microservice handling CRUD operations for challenges
@@ -21,6 +28,7 @@ HowTos on deploying services and front end applications using CI/CD best practic
 * [ap-submission-microservice](https://github.com/appirio-tech/ap-submission-microservice): Microservice handling operations for challenge submissions
 * [ap-submission-processor](https://github.com/appirio-tech/ap-submission-processor): Service that handles processing of submissions once they are uploaded to S3.
 * [ap-file-microservice](https://github.com/appirio-tech/ap-file-microservice): Microservice handling operations for file access, upload etc.
+* [tc-direct-project-service](https://github.com/appirio-tech/tc-direct-project-service): Microservice handling operations for direct projects.
 * [tc-project-service](https://github.com/topcoder-platform/tc-project-service): Microservice handling CRUD operations for Connect Projects
 * [tc-tags-service](https://github.com/appirio-tech/tc-tags-service): Microservice handling CRUD operations for tags
 * [tc-message-service](https://github.com/topcoder-platform/tc-message-service): Microservice exposing APIs to interact with Discourse
