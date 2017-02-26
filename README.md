@@ -9,8 +9,8 @@ Benefits of [12 Factor App patters](https://12factor.net/) are numerous and will
 
 Language & Application type specific guides:
 
-* [Node.js Service](pages/nodejs-service.dev-guide.md)
-* [Java Service](pages/java-service.dev-guide.md) (wip)
+* [Node.js Service](pages/nodejs-services.dev-guide.md)
+* [Java Service](pages/java-services.dev-guide.md) (wip)
 
 **Web Applications**
 * [React Web App](pages/react-webapp.dev-guide.md) (wip)
