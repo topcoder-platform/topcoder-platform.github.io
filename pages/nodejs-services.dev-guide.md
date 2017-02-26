@@ -5,7 +5,7 @@ Here are some libraries that we recommend using to achieve these patterns.
 ### Linter
 Use [AirBnb ES Lint config](https://github.com/airbnb/javascript). Installation and setup steps are documented https://www.npmjs.com/package/eslint-config-airbnb.
 Add the following rules to your .eslintrc:
-```
+```json
 {
   "extends": "airbnb",
   "parser": "babel-eslint",
@@ -53,7 +53,7 @@ Sensitive data such as API keys and other secrets should NOT be checked into sou
 When it comes to using logging frameworks for Node.js, [bunyan](https://github.com/trentm/node-bunyan) and [winston](https://github.com/winstonjs/winston) are both very good. We chose to go with bunyan because of the ability to create child loggers. Our log helper library [tc-core-library-js](https://github.com/appirio-tech/tc-core-library-js) attaches a child logger to express4 request object. This child logger is provided the request Id. All log entries from the child logger will be annotated with the requestId. This is very useful when debugging requests in production env. tc-core-library-js also supports piping data to [Logentries](https://logentries.com) provided LOGENTRIES_TOKEN and CAPTURE_LOGS environment variables are set.
 
 Code snippet to use tc-core-library-js to setup the logger:
-```
+```javascript
 // Define and configure app
 var app = express();
 

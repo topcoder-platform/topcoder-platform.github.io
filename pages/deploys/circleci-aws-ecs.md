@@ -22,8 +22,7 @@ An EC2 Container Service cluster & Container Registry must already be setup on A
 
 ### Deploy script(s)
 #### ./circle.yml
-```
-
+```yaml
 deployment:
   development:
     branch: dev
@@ -43,7 +42,7 @@ Production environment can be configured to trigger deploys once a release tag h
 
 #### ./deploy_ecs.sh
 This is a template file. You most likely will need to modify `make_task_def()` to suit your needs.
-```
+```bash
 #!/usr/bin/env bash
 
 # more bash-friendly output for jq
