@@ -1,9 +1,19 @@
 ## Topcoder Platform Pages
 Welcome to Topcoder Platform pages. Here you'll find our style guides, deployment documention to build and maintain our apps.
 
-#### Style Guides
-* **Front End** - TBD
-* **Services** - TBD
+#### Development Guides
+
+**Services**
+
+Benefits of [12 Factor App patters](https://12factor.net/) are numerous and will documented. If you are not familiar with these patterns, we highly recommend reading about these first.
+
+Language & Application type specific guides:
+
+* [Node.js Service](pages/nodejs-service.dev-guide.js)
+* [Java Service](pages/java-service.dev-guide.js) (:memo:)
+
+**Web Applications**
+* [React Web App](pages/react-webapp.dev-guide.js) (:memo:)
 
 #### Deployment Guides
 HowTos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
