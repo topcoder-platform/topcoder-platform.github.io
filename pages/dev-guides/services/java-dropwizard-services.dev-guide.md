@@ -40,3 +40,15 @@ logging:
     - type: ${log_appender!'console'}
 
 ```
+
+#### Logging
+
+##### Request Id Tracing
+Use [this](https://github.com/service-enabled/dropwizard-request-tracker) library allows us to intercept a request and generate a request UUID if none exists. Follow the steps outlined on the github page. Additionally add the following to config :
+``` yaml
+requestTracker:
+  headerName: X-Request-Id
+```
+
+##### Logentires
+Please refer to this library to setup Logentires with Dropwizard service - https://githttps://github.com/service-enabled/dropwizard-request-tracker
