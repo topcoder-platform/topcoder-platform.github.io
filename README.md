@@ -3,9 +3,9 @@ Welcome to Topcoder Platform pages. Here you'll find our style guides, deploymen
 
 #### Development Guides
 
-[Services](dev-guides/services/services.md)
+[Services](pages/dev-guides/services/services.md)
 
-[React Web Apps](dev-guides/webapps/webapps.md)
+[React Web Apps](pages/dev-guides/webapps/webapps.md)
 
 #### Deployment Guides
 HowTos on deploying services and front end applications using CI/CD best practices to our infrastructure on AWS. Covers deploying services to AWS Elastic Beanstalk, AWS ECS.
