@@ -1,3 +1,4 @@
+![Broken Link Check](https://github.com/nerding-it/topcoder-platform.github.io/actions/workflows/action.yml/badge.svg)
 ## Topcoder Platform Pages
 Welcome to Topcoder Platform pages. Here you'll find our style guides, deployment documention to build and maintain our apps.
 
